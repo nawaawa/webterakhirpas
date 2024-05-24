@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@300;400;500;600;700;800;900& display=swap');
+body{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:  #b447bde7;
+    size: 100%;
+}
+
+header{
+    padding: 10px 8px;
+    margin: 2px 30px;
+}
+
+.container{
+    padding: 20px 20px;
+    margin:  0 10px;
+}
+/* --navbar-- */
+.navbar a, li{
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 0 20px;
+    position: relative;
+    color: #fff;
+}
+
+.navbar ul li {
+    display: inline;
+    text-align: center;
+    margin: 0 40px;
+    padding: 0 40px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    font-size: 28px;
+}
+
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+/* --Home--- */
+.home {
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.home h1, h3{
+    font-size: 58px;
+    color: #fff;
+}
+
+.home span{
+    color: rgb(120, 22, 232);
+}
+
+.home p{
+    font-size: 40px;
+    color: #fff;
+}
+
+/* --About me */
+.about-me{
+    position: relative;
+    padding: 10px 20px;
+    background-color: #6c035c;
+    border-radius: 20px;
+}
+
+.about-me h2{
+    top: 10px;
+    font-size: 60px;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.about-me-container{
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    margin-left: 40px;
+}
+
+.about-me-container img{
+    width: 40%;
+    border-radius: 50px;
+
+}
+
+.about-me-text {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+/* --skills----- */
+.skills{
+    margin:  20px 0;
+}
+
+.skills h2{
+    font-size: 60px;
+    color: #fff;
+}
+
+.skills p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.skills {
+    font-size: 35px;
+}
+
+.skills .list-skills{
+    display: flex;
+
+}
+
+.skills .list-skills ul{
+    background-color:#c612b7;
+    text-align: center;
+    border-radius: 20px;
+    transition: background 0.6s, transform 0.5s;
+    width: 10em;
+    height: 10.6em;
+    margin: 0 20px;
+}
+
+.list-skills i{
+    font-size: 4em;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.list-skills ul:hover{
+    background: rgb(53, 4, 54);
+    transform: translateY(-30px);
+}
+
+/* --Social media */
+.social-media{
+    margin: 20px 0;
+    background-color: #6c035c;
+    padding: 40px 30px;
+    border-radius: 18px;
+
+}
+
+.social-media h2{
+    font-size: 60px;
+    padding: 0 15px;
+    color: #fff;
+    position: static;
+}
+
+
+
+.social-media-icons, i {
+    display: inline-flex;
+    border-radius: 30em;
+    color: rgb(255, 0, 255);
+    justify-content: space-between;
+}
+
+.social-icons i{
+    border: rgb(108, 4, 132) 1px solid;
+    margin: 0 30px;
+    position: relative;
+    font-size: 4em;
+}
+
+.social-media i:hover{
+    background: rgb(151, 10, 227);
+    color: rgb(201, 9, 176);
+    box-shadow: 0 0 20px #0ef;
+}
